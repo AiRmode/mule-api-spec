@@ -1,6 +1,8 @@
 #%RAML 1.0
 title: dummy-api
-
+version: v1
+protocols:
+  - HTTP
 
 types: 
   PersonInline: |
@@ -30,11 +32,10 @@ types:
       200:
         body:
           application/json:
-            type: PersonInline # can also be used with 'type'
-  post:
+            type: PersonInline 
     body:
       application/json:
-        type: | # can also be used with 'type'
+        type: | 
           {
             "title": "Body Declaration Schema",
             "type": "object",
