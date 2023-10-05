@@ -49,19 +49,19 @@ types:
                 example: Bad request
   post:
     body:
-    application/json:
-      type: | 
-        {
-          "title": "Body Declaration Schema",
-          "type": "object",
-          "properties": {
-            "firstName": {
-              "type": "string"
-            },
-            "lastName": {
-              "type": "string"
+      application/json:
+        type: 
+          {
+            "title": Body Declaration Schema,
+            "type": object,
+            "properties": {
+              "firstName": {
+                "type": "string"
+              },
+              "lastName": {
+                "type": "string"
+              }
             }
           }
-        }
     responses:
       
