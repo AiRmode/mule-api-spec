@@ -39,7 +39,12 @@ types:
           application/json:
             type: PersonInline 
       400:
-        
+        description: Bad request
+        body:
+          application/json:
+            type: object
+            properties:
+
     body:
       application/json:
         type: | 
