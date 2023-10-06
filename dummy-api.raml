@@ -41,7 +41,7 @@ baseUri: /api
       200:
         body:
           application/json:
-            type: !include person.json
+            type: !include item.json
       400:
         body:
           application/json:
@@ -53,6 +53,6 @@ baseUri: /api
   post:
     body:
       application/json:
-        type: !include person.json
+        type: !include item.json
                   
       
