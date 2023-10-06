@@ -3,7 +3,7 @@
   "title": "item",
   "properties": {
     "sku": {
-      "type": integer
+      "type": "integer"
     }
   }
 }
