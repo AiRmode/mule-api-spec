@@ -6,7 +6,7 @@
       "type": "integer"
     },
     "sku": {
-      "type": "integer"
+      "type": "string"
     },
     "name": {
       "type": "string"
