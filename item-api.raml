@@ -4,27 +4,3 @@ version: v1
 protocols:
   - HTTP
 baseUri: /api
-
-/item:
-  get:
-    queryParameters:
-      sku:
-        type: string
-    responses:
-      200:
-        body:
-          application/json:
-            type: !include person.json
-      400:
-        body:
-          application/json:
-            type: object
-            properties:
-              message:
-                type: string
-                example: item not found
-  post:
-    body:
-      application/json:
-        type: !include person.json
-                  
