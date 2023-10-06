@@ -15,5 +15,5 @@
       "type": "string"
     }
   },
-  "required":""
+  "required":["sku","name","description"]
 }
