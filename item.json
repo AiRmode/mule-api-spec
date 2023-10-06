@@ -4,6 +4,12 @@
   "properties": {
     "sku": {
       "type": "integer"
+    },
+    "productName": {
+      "type": "string"
+    },
+    "description":{
+      "type":"string"
     }
   }
 }
