@@ -3,11 +3,11 @@
   "name": "dummy-api",
   "groupId": "06f8d734-cb1b-42db-8e58-1341838eaf46",
   "assetId": "dummy-api",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "classifier": "raml",
   "tags": [],
   "descriptorVersion": "1.0.0",
   "organizationId": "06f8d734-cb1b-42db-8e58-1341838eaf46",
-  "apiVersion": "v1",
+  "apiVersion": "v2",
   "originalFormatVersion": "1.0"
 }
