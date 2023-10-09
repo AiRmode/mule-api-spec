@@ -15,7 +15,7 @@ baseUri: /api
       200:
         body:
           application/json:
-            type: !include person.json 
+            type: !include warehouse-product.json 
       400:
         description: Bad request
         body:
@@ -24,11 +24,11 @@ baseUri: /api
             properties:
               message:
                 type: string
-                example: Bad request321
+                example: Bad request
   post:
     body:
       application/json:
-        type: !include person.json
+        type: !include warehouse-product.json
     responses:
 
 
@@ -41,7 +41,7 @@ baseUri: /api
       200:
         body:
           application/json:
-            type: !include item.json
+            type: !include store-product.json
       400:
         body:
           application/json:
@@ -53,6 +53,6 @@ baseUri: /api
   post:
     body:
       application/json:
-        type: !include item.json
+        type: !include store-product.json
                   
       
